@@ -85,7 +85,7 @@ int main(int argc, char **argv, char **envp)
 
     //Startup page vor server
     std::cout << "-------------------------------" << std::endl
-              << "|          | IP-Adress | Port |" << std::endl
+              << "|          | IP-adress | Port |" << std::endl
               << "-------------------------------" << std::endl
               << "| Database | " << env["POSTGRES_IP_ADDRESS"] << " | " << env["POSTGRES_PORT"] << " |" << std::endl
               << "-------------------------------" << std::endl
